@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>cdnLinks}}
+</head>
+<body>
+
+    {{>navbar}}
+    <!-- starting of header section  -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-10 mx-auto ">
+
+                <div class="row">
+
+                    <div class="col-md-12 col-12 d-flex flex-column align-items-center">
+                        <img class="errimg" src="img/error404.jpeg" alt="NOT FOUND">
+                        <h1>{{errMsg}}</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer section starts here -->
+    {{>footer}}
+</body>
+</html>

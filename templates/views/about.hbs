@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>cdnLinks}}
+</head>
+<body>
+
+    {{>navbar}}
+    <!-- starting of header section  -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-10 mx-auto">
+
+                <!-- Here we will create a row which contains two columns so,
+                    give both of then 6 column gap out of 12 and make one on left side 
+                    and other on right side 
+                -->
+
+                <div class="row ">
+
+                    <!-- left side of row which contains images -->
+                    <div class="col-md-6 col-12 main_header_right ">
+                        <img class="w-100" src="img/about.jpg" alt="About Us">
+                    </div>
+
+                    <!-- right side of the row which contains text and a button -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <h1>I am a <span class="txt-clr">Mern Stack</span> Developer, web crawler and Data analyst </h1>
+                        <a href="#" ><button>Portfolio</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer section starts here -->
+    {{>footer}}
+</body>
+</html>
