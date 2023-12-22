@@ -22,9 +22,9 @@ app.get('', (req, res) => {
 app.get('/about', (req,res) => {
     res.render('about')
 })
-app.get('/weather', (req,res) => {
-    res.render('weather')
-})
+// app.get('/weather', (req,res) => {
+//     res.render('weather')
+// })
 
 app.get('*', (req,res) => {
     res.render('404error', {
